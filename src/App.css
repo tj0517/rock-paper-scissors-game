@@ -1,0 +1,210 @@
+body
+{
+margin:0;  
+background: radial-gradient(circle at 50% 20% ,hsl(214, 47%, 23%),hsl(237, 49%, 15%));
+font-family: "Barlow Semi Condensed", sans-serif;
+padding-bottom: 25vw;
+}
+#container
+{
+position: absolute;
+top: 5%;
+width: 70%;
+margin-left: 15%;
+margin-right: 15%;
+}
+#top
+{
+width: 90%;
+margin-left: 5%;
+height: 13vw;
+border: 2px hsl(217, 16%, 45%) solid;  
+border-radius: 1vw;
+display: flex;
+flex-direction: row;
+}
+#left
+{
+ color: white; 
+ width: 20%;
+ font-size: 2.5vw;
+ font-weight: 900;
+ margin-left: 5%;
+ margin-top: 2%;
+}
+#right
+{
+background-color: white;
+height: 90%;
+width: 25%;
+margin-top: 1%;
+margin-left: 47%;
+border-radius: 1vw;
+}
+#score_text
+{
+  color:  hsl(217, 16%, 45%);
+  text-align: center;
+  font-size: 2vw;
+  font-weight: 600;
+  margin-top: 10%;
+}
+#score
+{
+color: black;  
+text-align: center;
+font-weight: 800;
+font-size: 7vw;
+margin-top: -3vh;
+}
+.element
+{
+background-color: white;
+height: 12vw;
+width: 12vw;
+border-radius: 17vw;  
+text-align: center;
+}
+.element>img
+{
+  min-height: 50%;
+  min-height: 50%;
+  max-width: 50%;
+  max-height: 50%; 
+  margin-top: 25%;  
+}
+#back_triangle
+{
+ position: absolute;
+left: 10vw;
+top: 10vh;
+width: 40vw;
+}
+#gra
+{
+  position: relative;
+margin-top: 5%; 
+text-align: center; 
+margin-left: 5%;
+}
+#rock
+{
+position: absolute;
+left: 22vw;
+top: 27vw;
+z-index: 2;
+border: 2vw solid hsl(349, 70%, 56%);
+}
+#paper
+{
+  position: absolute;
+z-index: 2; 
+top: 4vh;
+right: 10vw;
+border: 2vw solid hsl(230, 89%, 65%);
+}
+#scissors
+{
+position: absolute;
+top: 4vh;
+left: 5vw;  
+z-index: 2;
+border: 2vw solid hsl(39, 89%, 49%); 
+}
+#wynik_top
+{
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;  
+}
+.t
+{
+color: white;  
+font-size: 1.5vw;
+font-weight: 700;
+margin: 7vw;
+}
+#wynik_ekran
+{
+margin-top: 5%;  
+width: 100%;
+}
+#wynik_midle
+{
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;  
+}
+.m
+{
+  background-color: white;
+  height: 17vw;
+  width: 17vw;
+  border-radius: 17vw;  
+  text-align: center;  
+}
+.m>img
+{
+    min-height: 50%;
+    min-height: 50%;
+    max-width: 50%;
+    max-height: 50%; 
+    margin-top: 25%;  
+}
+#rock1
+{
+border: 2vw solid hsl(349, 70%, 56%);
+}
+#paper1
+{
+border: 2vw solid hsl(230, 89%, 65%);
+}
+#scissors1
+{
+border: 2vw solid hsl(39, 89%, 49%); 
+}
+#m_midle
+{
+color: white;  
+font-size: 5vw;
+font-weight: 700;
+}
+#button_again
+{
+padding: 2vw;  
+color:hsl(237, 49%, 15%) ;
+background-color: white;
+font-size: 2vw;
+font-weight: 400;
+text-align: center;
+border-radius: 2vw;
+margin-top: 1vw;
+}
+@media (max-width: 480px) {
+#score
+{
+text-align: center;
+font-weight: 800;
+font-size: 7vw;
+margin-top: -1vh;
+}
+#paper
+{
+  position: absolute;
+  z-index: 2; 
+  top: 6vh;
+  right: 10vw; 
+}
+#scissors
+{
+position: absolute;
+top: 6vh;  
+}
+#rock
+{
+position: absolute;
+top: 40vw;  
+}
+}
